@@ -1,0 +1,72 @@
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color:rgb(20, 133, 238); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 100px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    padding-top: 18vh;
+}
+.sidebar .closebtn:hover {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-top: 10vh;
+    border: none;
+    color: white;
+    background-color: rgb(20, 133, 238);
+    transition: 0.3s;
+}
+
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 120%;
+    color:rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 120%;
+    color:rgb(20, 133, 238);
+    display: block;
+    transition: 0.3s;
+    background-color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-top: 10vh;
+    border: none;
+    transition: 0s;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:rgb(20, 133, 238);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 0px;
+}
+

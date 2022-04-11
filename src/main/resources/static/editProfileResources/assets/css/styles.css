@@ -1,0 +1,27 @@
+.box:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  /*box-shadow: 1px 1px #53a7ea,                2px 2px #53a7ea,                3px 3px #53a7ea;*/
+  /*-webkit-transform: translateX(-3px);*/
+  /*transform: translateX(50%);*/
+  border-radius: 5%;
+  /*transition-delay: 0.10s;*/
+  transition: all .1s ease-in-out;
+  /*transition: all .2s ease-in-out;*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.box {
+}
+
+#back {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#op {
+  opacity: 0.1;
+}
+
