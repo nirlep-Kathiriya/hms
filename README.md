@@ -21,4 +21,4 @@ Test Setup
         -Run the below commands
                 mvn clean install
                 mvn spring-boot:run
-                -Open Microsoft Edge and search for the localhost:7000
+        -Open Microsoft Edge and search for the localhost:7000
